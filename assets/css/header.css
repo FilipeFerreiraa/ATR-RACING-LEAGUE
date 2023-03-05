@@ -49,34 +49,5 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  header.main_header_container {
-    align-items: center;
-    background-color: var(--color-transparent-black);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: row;
-    font-size: var(--font-size-title);
-    height: 80px;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  div.header_navigation {
-    display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-  }
-  
-  div.header_navigation > a {
-    align-items: center;
-    color: var(--color-white);
-    display: flex;
-    height: 50px;
-    text-decoration: none;
-    margin: 5px;
-  }
-  
-  div.header_navigation > a > li {
-    list-style-type: none;
-  }
+
 }

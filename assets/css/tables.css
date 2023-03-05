@@ -13,7 +13,7 @@
 @media screen and (min-width: 0px) {
   main.main_container {
     align-items: center;
-    background-color: var(--color-transparent-black);
+    background-color: var(--color-white);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -21,7 +21,7 @@
   
   table.table_container {
     align-items: center;
-    color: var(--color-white);
+    color: var(--color-black);
     display: flex;
     flex-direction: column;
     font-size: var(--font-size-body-mobile);
@@ -31,7 +31,7 @@
   }
   
   table.table_container > tr {
-    background-color: var(--color-transparent-black);
+    background-color: var(--color-white);
   }
   table.table_container > tr, td, th {
     padding:  10px;
@@ -43,33 +43,5 @@
 }
 
 @media screen and (min-width: 1024px) {
-  main.main_container {
-    align-items: center;
-    background-color: var(--color-transparent-black);
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  table.table_container {
-    align-items: center;
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    font-size: var(--font-size-body-desktop);
-    height: 1000px;
-    text-align: center;
-    width: 90%;
-  }
-  
-  table.table_container > tr {
-    background-color: var(--color-transparent-black);
-  }
-  table.table_container > tr, td, th {
-    padding:  10px;
-  }
-  
-  table.table_container img {
-    width: var(--font-size-body-desktop);
-  }
+
 }

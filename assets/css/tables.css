@@ -1,0 +1,39 @@
+:root {
+  --color-black: rgb(0  ,0  ,0);
+  --color-transparent-black: rgba(0,  0, 0, .5);
+  --color-white: rgb(255  ,255  ,255);
+  --color-blue: rgb(46, 24, 187);
+  --color-pink: rgb(164, 12, 169);
+  --font-size-body: 1vw;
+  --font-size-title: 2vw;
+}
+
+main.main_container {
+  align-items: center;
+  background-color: var(--color-transparent-black);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+table.table_container {
+  align-items: center;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-body);
+  height: 1000px;
+  text-align: center;
+  width: 90%;
+}
+
+table.table_container > tr {
+  background-color: var(--color-transparent-black);
+}
+table.table_container > tr, td, th {
+  padding:  10px;
+}
+
+table.table_container img {
+  width: var(--font-size-body);
+}
